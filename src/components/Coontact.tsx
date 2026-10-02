@@ -292,7 +292,7 @@ const Coontact: React.FC = () => {
             <div className="bg-white p-5 rounded-[24px] border border-gray-100 shadow-sm flex flex-col justify-center gap-1.5 min-h-[120px]">
               <p className="font-bold text-gray-900 text-lg">E-mail :</p>
               <p className="text-gray-600 text-sm break-all font-medium">
-                pamudithagangana45@gmail.com
+                pamudithasenanayaka@gmail.com
               </p>
             </div>
           </div>
