@@ -89,7 +89,7 @@ const Hero: React.FC = () => {
       {/* Background Glow */}
       <div className="absolute inset-0 bg-radial-gradient pointer-events-none" />
 
-      <section className="relative z-20 mx-auto lg:hidden">
+      <section className="relative z-20 mx-auto lg">
         <Navbar />
       </section>
 
