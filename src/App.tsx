@@ -8,7 +8,7 @@ import Contact from "./components/Coontact";
 import Footer from "./components/Footer";
 import CustomCursor from "./components/CustomCursor";
 import IntroLoader from "./components/IntroLoader";
-import ScrollProgressRail from "./components/ScrollProgressRail";
+// import ScrollProgressRail from "./components/ScrollProgressRail";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -57,7 +57,7 @@ function App() {
       )}
 
       <div>
-        <ScrollProgressRail />
+        {/* <ScrollProgressRail /> */}
         <section id="home" className="w-[98%] mx-auto ">
           <Hero />
         </section>

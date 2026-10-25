@@ -26,13 +26,13 @@ const Navbar: React.FC = () => {
   return (
     <>
       {/* Desktop Navbar */}
-      <div className="bg-[#222052] font-roboto hidden lg:flex items-center justify-center gap-10 text-[#fff] rounded-xl mt-6">
+      <div className="font-roboto hidden lg:flex items-center justify-center gap-10 text-[#fff] rounded-xl mt-6">
         {navItems.map((item) => (
           <div
             key={item.name}
             onClick={() => handleScroll(item.id, item.name)}
             className={`px-6 py-2 rounded-2xl cursor-pointer transition-all duration-200 text-lg flex items-center ${
-              active === item.name && item.name !== Logo ? "bg-[#F5CB5C] text-black" : ""
+              active === item.name && item.name !== Logo ? "text-[#F5CB5C]" : ""
             }`}
           >
             {item.name === Logo ? (
